@@ -31,6 +31,7 @@ export default {
         { testo: "Perchè nonostante una chiave USB ha due facce, riesco sempre ad inserirla al terzo tentativo?", nome: "Alessio" },
         { testo: "Finalmente le lezioni sono finite!!!", nome: "Francesco" },
         { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
+        { testo: "Questa frase è stupida, non leggerla", nome "Jacopo"},
       ],
     };
   },
