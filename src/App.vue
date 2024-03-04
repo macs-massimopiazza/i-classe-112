@@ -1,16 +1,24 @@
 <template>
-  <h1 style="color: rgb(97 13 166); font-size: 4rem;">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
+  <h1 style="color: rgb(97 13 166); font-size: 4rem">
+    🎡🛝 Vivaaaaa Classe 112 🛝🎡
+  </h1>
   <h3>yayaya</h3>
   <p style="color: #fa1afa">
     💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
   </p>
   <h3>Ecco il famoso premio</h3>
-  <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
-  <h3 style="color: red;">🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
+  <img
+    src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png"
+    alt="premio"
+  />
+  <h3 style="color: red">
+    🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!=
+    🦥
+  </h3>
   <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
   <ul>
     <li v-for="(frase, index) in frasi" :key="index">
-      {{ frase.testo }}
+      {{ frase.testo }}<img src="/images/Charlses.gif" alt="Image Charles" />
       <span style="font-style: italic"> -{{ frase.nome }}</span>
     </li>
     <li></li>
@@ -23,8 +31,20 @@ export default {
   data() {
     return {
       frasi: [
-        { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
-        { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
+        {
+          testo:
+            "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)",
+          nome: "Massimo",
+        },
+        {
+          testo: "non è vero, l'assassino è sempre il gatto del maggiordomo",
+          nome: "Massimolaltro",
+        },
+        {
+          testo:
+            "Ehi mamma mi compri i biscotti? Niente da fare!,la cosa non finisce qui!!",
+          nome: "Gabriele Palma",
+        },
       ],
     };
   },
