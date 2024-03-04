@@ -31,6 +31,7 @@ export default {
         { testo: Forza Milan, nome: Matteo},
         { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
         { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
+        { testo: "I bravi programmatori sanno cosa scrivere. I migliori sanno cosa riscrivere", nome: "Luca" },
         { testo: "Shrek is love, Shrek is Life", nome: Giorgio🗿, path: https://i1.sndcdn.com/artworks-000482000763-nfncb0-t500x500.jpg }
         { testo: "C'ho l'ansia a tempo indeterminato", nome: "Domenico F" },
         { testo: ""El susurro del viento entre las hojas guarda secretos que solo el alma silenciosa puede comprender."", nome: "Giacomo"}
