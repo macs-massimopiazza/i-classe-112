@@ -26,6 +26,7 @@ export default {
         { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
         { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
         { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
+        { testo: "La programmazione è come cercare un bug in un campo di grano: sembra infinito finché non trovi il punto e virgola mancante", nome: 'Martina'},
       ],
     };
   },
