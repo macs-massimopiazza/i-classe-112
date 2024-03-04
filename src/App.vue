@@ -44,6 +44,7 @@ export default {
         { testo: "Perchè nonostante una chiave USB ha due facce, riesco sempre ad inserirla al terzo tentativo?", nome: "Alessio" },
         { testo: "Finalmente le lezioni sono finite!!!", nome: "Francesco" },
         { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
+        { testo: "Ma....un aperitivo?", nome: 'Gabriele'},
         { testo: "La programmazione è come cercare un bug in un campo di grano: sembra infinito finché non trovi il punto e virgola mancante", nome: 'Martina'},
       ],
       loveClicked: false
