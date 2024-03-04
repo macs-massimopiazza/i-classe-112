@@ -29,6 +29,7 @@ export default {
         { testo: Forza Milan, nome: Matteo},
         { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
         { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
+        { testo: "Proof of Steak is love, Proof of Steak is life UwU", nome: "Fonta" },
         { testo: "Ma precisamente, questo <s>Kafkian</s> Boolean, chi è?", nome: "Ale R" },
         { testo: "hello world from murderer!", nome: "Gianluca" },
         { testo: "E se la vita fosse solo un loop infinito, con il debug come unico modo per trovare la felicità?", nome: "Domenico"},
