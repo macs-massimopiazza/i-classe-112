@@ -5,7 +5,7 @@
     <p style="color: #fa1afa">
       💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
     </p>
-    <h3>Ecco il famoso premio</h3>
+    <h3>Ecco il famoso premio sudato con tanta fatica</h3>
     <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
     <h3 style="color: red;">🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
     <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
