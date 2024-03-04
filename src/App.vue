@@ -8,7 +8,7 @@
   <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
   <h3 style="color: red;">🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
   <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
-   <h3 style="color: #ff0f0f">uno sviluppatore web è come un cane guida... solo che invece di leccarmi la faccia quando sono triste, mi scrive una canzone in JavaScript.</h3>
+   <h3 style="color: #ff0f0f">uno sviluppatore web è come un cane guida... solo che invece di leccarmi la faccia quando sono triste, mi scrive una canzone in JavaScript.(Alissa e Carmen)</h3>
   <ul>
     <li v-for="(frase, index) in frasi" :key="index">
       {{ frase.testo }}
