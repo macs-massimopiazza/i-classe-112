@@ -23,8 +23,7 @@ export default {
   data() {
     return {
       frasi: [
-        { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
-        { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
+        { testo: Forza Milan, nome: Matteo},
       ],
     };
   },
