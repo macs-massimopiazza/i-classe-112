@@ -1,5 +1,4 @@
 <template>
-
   <div id="app">
       <h1 style="color: rgb(97 13 166); font-size: 4rem;">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
       <h3>yayaya</h3>
@@ -46,6 +45,7 @@ export default {
         { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
         { testo: "Ma....un aperitivo?", nome: 'Gabriele'},
         { testo: "La programmazione è come cercare un bug in un campo di grano: sembra infinito finché non trovi il punto e virgola mancante", nome: 'Martina'},
+        { testo: "uno sviluppatore web è come un cane guida... solo che invece di leccarmi la faccia quando sono triste, mi scrive una canzone in JavaScript.", nome: '(Alissa e Carmen)'},
       ],
       loveClicked: false
     };
