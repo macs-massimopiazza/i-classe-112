@@ -12,6 +12,7 @@
     <li v-for="(frase, index) in frasi" :key="index">
       {{ frase.testo }}
       <span style="font-style: italic"> -{{ frase.nome }}</span>
+      <img :src="path">
     </li>
     <li></li>
   </ul>
@@ -25,6 +26,7 @@ export default {
       frasi: [
         { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
         { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
+        { testo: "Shrek is love, Shrek is Life", nome: Giorgio🗿, path: https://i1.sndcdn.com/artworks-000482000763-nfncb0-t500x500.jpg }
       ],
     };
   },
