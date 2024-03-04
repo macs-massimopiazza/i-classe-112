@@ -17,7 +17,6 @@
     </ul>
     <span class="heart" :class="{ 'clicked': loveClicked }" @click="toggleLove">&#10084;</span>
     <p>Made with &#10084; by myself. Don't waste your money! Cit. Cosimo</p>
-  </div>
 </template>
 
 <script>
@@ -28,6 +27,12 @@ export default {
       frasi: [
         { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
         { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
+        { testo: "E se la vita fosse solo un loop infinito, con il debug come unico modo per trovare la felicità?", nome: "Domenico"},
+        { testo: "ero ateo fino a quando non ho scoperto che ero un Dio nel mondo di LoL. 🤡", nome: "aChuckArell" },
+        { testo: "essere dei chad ", nome: "CHAD" },
+        { testo: "Perchè nonostante una chiave USB ha due facce, riesco sempre ad inserirla al terzo tentativo?", nome: "Alessio" },
+        { testo: "Finalmente le lezioni sono finite!!!", nome: "Francesco" },
+        { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
       ],
       loveClicked: false
     };
