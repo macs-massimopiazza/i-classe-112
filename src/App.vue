@@ -1,20 +1,20 @@
 <template>
-  <h1 style="color: rgb(97 13 166); font-size: 4rem;">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
+  <div id="app">
+  <h1 style="color: rgb(97 13 166); font-size: 4rem">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
   <h3>yayaya</h3>
-  <p style="color: #fa1afa">
-    💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
-  </p>
+  <p style="color: #fa1afa">💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕</p>
   <h3>Ecco il famoso premio</h3>
-  <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
-  <h3 style="color: red;">🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
+  <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio" />
+  <h3 style="color: red"> 🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥 </h3>
   <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
   <ul>
     <li v-for="(frase, index) in frasi" :key="index">
       {{ frase.testo }}
       <span style="font-style: italic"> -{{ frase.nome }}</span>
     </li>
-    <li></li>
+    <li>Ehi mamma mi compri i biscotti? Niente da fare!,la cosa non finisce qui!! -Gabriele Palma <img src="/images/Charles.gif" alt="Image Charles" /></li>
   </ul>
+  </div>
 </template>
 
 <script>
@@ -23,12 +23,37 @@ export default {
   data() {
     return {
       frasi: [
+        { testo: Forza Milan, nome: Matteo},
         { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
         { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
         { testo: "Quando il tuo codice funziona ma non hai idea del perché: Sono un mago della tastiera!", nome: "Aurora" },
+        { testo: "I bravi programmatori sanno cosa scrivere. I migliori sanno cosa riscrivere", nome: "Luca" },
+        { testo: "Shrek is love, Shrek is Life", nome: Giorgio🗿, path: https://i1.sndcdn.com/artworks-000482000763-nfncb0-t500x500.jpg }
+        { testo: "C'ho l'ansia a tempo indeterminato", nome: "Domenico F" },
+        { testo: ""El susurro del viento entre las hojas guarda secretos que solo el alma silenciosa puede comprender."", nome: "Giacomo"}
+        { testo: "Proof of Steak is love, Proof of Steak is life UwU", nome: "Fonta" },
+        { testo: "Ma precisamente, questo <s>Kafkian</s> Boolean, chi è?", nome: "Ale R" },
+        { testo: "hello world from murderer!", nome: "Gianluca" },
+        { testo: "E se la vita fosse solo un loop infinito, con il debug come unico modo per trovare la felicità?", nome: "Domenico"},
+        { testo: "ero ateo fino a quando non ho scoperto che ero un Dio nel mondo di LoL. 🤡", nome: "aChuckArell" },
+        { testo: "essere dei chad ", nome: "CHAD" },
+        { testo: "Perchè nonostante una chiave USB ha due facce, riesco sempre ad inserirla al terzo tentativo?", nome: "Alessio" },
+        { testo: "Finalmente le lezioni sono finite!!!", nome: "Francesco" },
+        { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
+        { testo: "l'assassino è sempre Alessandro Fontana" , nome: "Sergio"},
+        { testo: "Questa frase è stupida, non leggerla", nome "Jacopo"},
+        { testo: "Ma....un aperitivo?", nome: 'Gabriele'},
+        { testo: "La programmazione è come cercare un bug in un campo di grano: sembra infinito finché non trovi il punto e virgola mancante", nome: 'Martina'},
+        { testo: "uno sviluppatore web è come un cane guida... solo che invece di leccarmi la faccia quando sono triste, mi scrive una canzone in JavaScript.", nome: '(Alissa e Carmen)'}
       ],
+      loveClicked: false
     };
   },
+  methods: {
+    toggleLove() {
+      this.loveClicked = !this.loveClicked;
+    }
+  }
 };
 </script>
 
@@ -70,5 +95,13 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.heart {
+  cursor: pointer;
+}
+
+.clicked {
+  color: red;
 }
 </style>
