@@ -4,13 +4,16 @@
   <p style="color: #fa1afa">
     💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
   </p>
+  <h3>Ecco il famoso premio</h3>
+  <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.pnghttps://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
+  <h3>🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
   <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
   <ul>
     <li v-for="(frase, index) in frasi" :key="index">
       {{ frase.testo }}
       <span style="font-style: italic"> -{{ frase.nome }}</span>
     </li>
-    <li><img src="https://www.zooplus.it/magazine/wp-content/uploads/2020/10/1-37-768x512.jpg" alt="gattino"></li>
+    <li></li>
   </ul>
 </template>
 
