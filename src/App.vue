@@ -18,7 +18,10 @@
   <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
   <ul>
     <li v-for="(frase, index) in frasi" :key="index">
-      {{ frase.testo }}<img src="/images/Charlses.gif" alt="Image Charles" />
+      {{ frase.testo }}
+      <div v-if="frase.nome == 'Gabriele Palma'">
+        <img src="/images/Charles.gif" alt="Image Charles" />
+      </div>
       <span style="font-style: italic"> -{{ frase.nome }}</span>
     </li>
     <li></li>
