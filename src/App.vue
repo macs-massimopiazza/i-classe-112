@@ -1,24 +1,19 @@
 <template>
   <div id="app">
-      <h1 style="color: rgb(97 13 166); font-size: 4rem;">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
-      <h3>yayaya</h3>
-      <p style="color: #fa1afa">
-        💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
-      </p>
-      <h3>Ecco il famoso premio</h3>
-      <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
-      <h3 style="color: red;">🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
-      <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
-      <ul>
-        <li v-for="(frase, index) in frasi" :key="index">
-          {{ frase.testo }}
-          <span style="font-style: italic"> -{{ frase.nome }}</span>
-          <img v-if="path" :src="path>
-        </li>
-        <li></li>
-      </ul>
-    <span class="heart" :class="{ 'clicked': loveClicked }" @click="toggleLove">&#10084;</span>
-    <p>Made with &#10084; by myself. Don't waste your money! Cit. Cosimo</p>
+  <h1 style="color: rgb(97 13 166); font-size: 4rem">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
+  <h3>yayaya</h3>
+  <p style="color: #fa1afa">💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕</p>
+  <h3>Ecco il famoso premio</h3>
+  <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio" />
+  <h3 style="color: red"> 🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥 </h3>
+  <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
+  <ul>
+    <li v-for="(frase, index) in frasi" :key="index">
+      {{ frase.testo }}
+      <span style="font-style: italic"> -{{ frase.nome }}</span>
+    </li>
+    <li>Ehi mamma mi compri i biscotti? Niente da fare!,la cosa non finisce qui!! -Gabriele Palma <img src="/images/Charles.gif" alt="Image Charles" /></li>
+  </ul>
   </div>
 </template>
 
@@ -46,7 +41,7 @@ export default {
         { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
         { testo: "Ma....un aperitivo?", nome: 'Gabriele'},
         { testo: "La programmazione è come cercare un bug in un campo di grano: sembra infinito finché non trovi il punto e virgola mancante", nome: 'Martina'},
-        { testo: "uno sviluppatore web è come un cane guida... solo che invece di leccarmi la faccia quando sono triste, mi scrive una canzone in JavaScript.", nome: '(Alissa e Carmen)'},
+        { testo: "uno sviluppatore web è come un cane guida... solo che invece di leccarmi la faccia quando sono triste, mi scrive una canzone in JavaScript.", nome: '(Alissa e Carmen)'}
       ],
       loveClicked: false
     };
