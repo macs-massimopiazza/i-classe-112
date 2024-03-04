@@ -10,7 +10,7 @@
       {{ frase.testo }}
       <span style="font-style: italic"> -{{ frase.nome }}</span>
     </li>
-    <li><img src="https://i.imgflip.com/7wsr35.jpg" alt=""></li>
+    <li><img src="https://www.zooplus.it/magazine/wp-content/uploads/2020/10/1-37-768x512.jpg" alt="gattino"></li>
   </ul>
 </template>
 
@@ -34,7 +34,7 @@ export default {
 }
 
 body {
-  background-color: #a4fbe5;
+  background-color: #fbdca4;
 }
 
 #app {
@@ -42,7 +42,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #5d00ff;
+  color: #1a6a00;
+}
+
+img {
+  width: 400px;
 }
 
 li {
