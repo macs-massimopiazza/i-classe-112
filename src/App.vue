@@ -40,6 +40,7 @@ export default {
         { testo: "Perchè nonostante una chiave USB ha due facce, riesco sempre ad inserirla al terzo tentativo?", nome: "Alessio" },
         { testo: "Finalmente le lezioni sono finite!!!", nome: "Francesco" },
         { testo: "Quando una cosa ti va male, rifalla 21 volte", nome: 'Cristopher'},
+        { testo: "Quando una cosa ti va male 21 volte, fatti due domande.", nome: 'Tobia'},
         { testo: "l'assassino è sempre Alessandro Fontana" , nome: "Sergio"},
         { testo: "Questa frase è stupida, non leggerla", nome "Jacopo"},
         { testo: "Ma....un aperitivo?", nome: 'Gabriele'},
