@@ -1,20 +1,23 @@
 <template>
-  <h1 style="color: rgb(97 13 166); font-size: 4rem;">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
-  <h3>yayaya</h3>
-  <p style="color: #fa1afa">
-    💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
-  </p>
-  <h3>Ecco il famoso premio</h3>
-  <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
-  <h3 style="color: red;">🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
-  <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
-  <ul>
-    <li v-for="(frase, index) in frasi" :key="index">
-      {{ frase.testo }}
-      <span style="font-style: italic"> -{{ frase.nome }}</span>
-    </li>
-    <li></li>
-  </ul>
+  <div id="app">
+    <h1 style="color: rgb(97 13 166); font-size: 4rem;">🎡🛝 Vivaaaaa Classe 112 🛝🎡</h1>
+    <h3>yayaya</h3>
+    <p style="color: #fa1afa">
+      💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
+    </p>
+    <h3>Ecco il famoso premio</h3>
+    <img src="https://www.coppe-targhe.com/pub/media/catalog/product/cache/1f2776a96cc761aba37519c6315ac844/c/o/coppa-oro-alloro-93176.png" alt="premio">
+    <h3 style="color: red;">🦄 Ha vinto lo sport e la passione per la programmazione!11!11!!10!=!=1!=!= 🦥</h3>
+    <h3 style="color: #ff0f0f">🥰🤣😱🤧🎍🦖 Qualche parola 🥰🤣😱🤧🎍🦖</h3>
+    <ul>
+      <li v-for="(frase, index) in frasi" :key="index">
+        {{ frase.testo }}
+        <span style="font-style: italic"> -{{ frase.nome }}</span>
+      </li>
+    </ul>
+    <span class="heart" :class="{ 'clicked': loveClicked }" @click="toggleLove">&#10084;</span>
+    <p>Made with &#10084; by myself. Don't waste your money! Cit. Cosimo</p>
+  </div>
 </template>
 
 <script>
@@ -26,8 +29,14 @@ export default {
         { testo: "fare il debugging è come essere il detective in un film giallo in cui tu sei anche l'assassino (o forse è stato lo stagista)", nome: "Massimo" },
         { testo: "non è vero, l'assassino è sempre il gatto del maggiordomo", nome: "Massimolaltro" },
       ],
+      loveClicked: false
     };
   },
+  methods: {
+    toggleLove() {
+      this.loveClicked = !this.loveClicked;
+    }
+  }
 };
 </script>
 
@@ -69,5 +78,13 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.heart {
+  cursor: pointer;
+}
+
+.clicked {
+  color: red;
 }
 </style>
